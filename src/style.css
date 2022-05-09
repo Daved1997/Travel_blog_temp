@@ -1,0 +1,24 @@
+body {
+  min-height: 400vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+#scrollable-slider {
+  position: fixed;
+  width: 100%;
+}
+
+.image-wrapper {
+  display: none;
+  margin: 50px auto;
+  text-align: center;
+  width: 40%;
+}
+
+.active {
+  display: block;
+}
+

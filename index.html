@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		#warning-message { display: none; }
+	    @media only screen and (orientation:portrait){
+	        #wrapper { display:none; }
+	        #warning-message { display:block; }
+	    }
+	    @media only screen and (orientation:landscape){
+	        #warning-message { display:none; }
+		}
+		@font-face {
+		font-family: 'TrebuchetMS';
+		font-style: normal;
+		font-weight: normal;
+		src: url(font/trebuc.woff);
+		}
+
+
+		@font-face {
+		font-family: 'TrebuchetMSItalic';
+		font-style: normal;
+		font-weight: normal;
+		src: url(font/Trebuchet-MS-Italic.woff);
+		}
+	</style>
+</head>
+<body>
+<div id="warning-message">
+    	<img src="img/rotate.png"/>
+    	<p>This website is only viewable in landscape mode</p>
+</div>
+<div id="wrapper">
+	<div>
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="index.html">hOME</a>
+		  <a href="about.html">aBOUT</a>
+		  <a href="services.html">sERVICES</a>
+		  <a href="contact.html">cONTACT</a>
+		</div>
+
+		<!-- Use any element to open the sidenav -->
+		<div onclick="openNav()" class="spanbutton">
+			<div class="menubuttondiv1">
+				<div class="menudiv1"></div>
+			    <div class="menudiv2"></div>
+			</div>
+			<div class="menubuttondiv2">
+				<div class="menudiv3"></div>
+			    <div class="menudiv4"></div>
+			</div>
+			<div class="menubuttondiv3">
+				<div class="menudiv5"></div>
+			    <div class="menudiv6"></div>
+			</div>
+		</div>
+	</div>
+	<section class="section1">
+		<div class="part1">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>		
+			<div id="dis1" class="tabcontent">
+				<h4>Place-1</h4>
+				<h3>Ten Best places to visit<br>Or write your own title</h3>
+				<p>Nulla in leo ex. Morbi id erat semper, tristique ligula et, consequat nunc. Sed 
+					eleifend, sapien in interdum volutpat, orci felis accumsan dolor, lobortis 
+					luctus turpis diam a quam. Pellentesque sit amet molestie justo. Aenean non 
+					sollicitudin massa, a aliquam quam. Nulla facilisi. Vivamus a ante sed quam 
+					pulvinar condimentum. In scelerisque dolor eget neque ornare finibus. Duis 
+					interdum libero erat, pellentesque rutrum erat consequat non. In mollis 
+					tellus sit amet elit accumsan maximus. Donec ut dapibus magna, eu tincidunt 
+					magna.
+					
+					Maecenas vehicula sodales orci, non elementum leo scelerisque eget. 
+					Vestibulum bibendum commodo felis, non ullamcorper ex efficitur vel. 
+					Curabitur viverra ultricies leo, quis rhoncus orci porttitor a. Duis eu urna in 
+					odio consectetur suscipit. In hac habitasse platea dictumst. Donec id laoreet 
+					nibh. Aliquam erat volutpat. Suspendisse mi urna, porttitor lobortis urna id, 
+					posuere vestibulum ipsum. In hac habitasse platea dictumst.
+					
+					Nulla sagittis ipsum non volutpat sagittis. Proin fermentum semper enim quis 
+					aliquet. In accumsan odio mi, quis commodo magna vulputate vel. Mauris 
+					quis orci sed diam commodo lacinia. Curabitur tristique a leo ac sollicitudin. 
+					Morbi pellentesque sodales neque. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus. Nam posuere arcu in ornare 
+					dignissim. Aliquam pretium massa vel mauris molestie pellentesque. Nullam 
+					quis lobortis turpis. Orci varius natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Proin mauris purus, auctor in tincidunt ut, 
+					posuere et mauris. Mauris consequat ante risus, id consequat ante lobortis 
+					eget.
+					
+					Phasellus vel sem libero. Suspendisse pharetra diam sodales ante placerat, at 
+					molestie lacus iaculis. Cras at purus mi. Cras tempor dui quis est dignissim 
+					scelerisque. Cras vulputate turpis venenatis ultrices ullamcorper. Sed sodales 
+					risus odio, sit amet maximus diam viverra vitae. Nulla ac justo varius, 
+					semper erat at, tristique est. Sed lacinia tortor ut libero vehicula fringilla. 
+					Maecenas feugiat sed nisi et tempus. Sed id sem velit. Morbi fringilla lacus ut 
+					eros tincidunt, nec dapibus eros porta. In hac habitasse platea dictumst. 
+					Suspendisse rutrum volutpat ex quis tincidunt. Ut congue felis id ultricies 
+					elementum. Quisque suscipit, sapien non lobortis placerat, urna justo 
+					euismod augue, quis condimentum diam purus ac metus.</p>
+			</div>
+			<div id="dis2" class="tabcontent">
+				<h4>Place-2</h4>
+				<h3>Best places to visit<br>Heading2</h3>
+				<p>Nulla in leo ex. Morbi id erat semper, tristique ligula et, consequat nunc. Sed 
+					eleifend, sapien in interdum volutpat, orci felis accumsan dolor, lobortis 
+					luctus turpis diam a quam. Pellentesque sit amet molestie justo. Aenean non 
+					sollicitudin massa, a aliquam quam. Nulla facilisi. Vivamus a ante sed quam 
+					pulvinar condimentum. In scelerisque dolor eget neque ornare finibus. Duis 
+					interdum libero erat, pellentesque rutrum erat consequat non. In mollis 
+					tellus sit amet elit accumsan maximus. Donec ut dapibus magna, eu tincidunt 
+					magna.
+					
+					Maecenas vehicula sodales orci, non elementum leo scelerisque eget. 
+					Vestibulum bibendum commodo felis, non ullamcorper ex efficitur vel. 
+					Curabitur viverra ultricies leo, quis rhoncus orci porttitor a. Duis eu urna in 
+					odio consectetur suscipit. In hac habitasse platea dictumst. Donec id laoreet 
+					nibh. Aliquam erat volutpat. Suspendisse mi urna, porttitor lobortis urna id, 
+					posuere vestibulum ipsum. In hac habitasse platea dictumst.
+					
+					Nulla sagittis ipsum non volutpat sagittis. Proin fermentum semper enim quis 
+					aliquet. In accumsan odio mi, quis commodo magna vulputate vel. Mauris 
+					quis orci sed diam commodo lacinia. Curabitur tristique a leo ac sollicitudin. 
+					Morbi pellentesque sodales neque. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus. Nam posuere arcu in ornare 
+					dignissim. Aliquam pretium massa vel mauris molestie pellentesque. Nullam 
+					quis lobortis turpis. Orci varius natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Proin mauris purus, auctor in tincidunt ut, 
+					posuere et mauris. Mauris consequat ante risus, id consequat ante lobortis 
+					eget.
+					
+					Phasellus vel sem libero. Suspendisse pharetra diam sodales ante placerat, at 
+					molestie lacus iaculis. Cras at purus mi. Cras tempor dui quis est dignissim 
+					scelerisque. Cras vulputate turpis venenatis ultrices ullamcorper. Sed sodales 
+					risus odio, sit amet maximus diam viverra vitae. Nulla ac justo varius, 
+					semper erat at, tristique est. Sed lacinia tortor ut libero vehicula fringilla. 
+					Maecenas feugiat sed nisi et tempus. Sed id sem velit. Morbi fringilla lacus ut 
+					eros tincidunt, nec dapibus eros porta. In hac habitasse platea dictumst. 
+					Suspendisse rutrum volutpat ex quis tincidunt. Ut congue felis id ultricies 
+					elementum. Quisque suscipit, sapien non lobortis placerat, urna justo 
+					euismod augue, quis condimentum diam purus ac metus.</p>
+			</div>
+			<div id="dis3" class="tabcontent">
+				<h4>Place-3</h4>
+				<h3>Best places to visit<br>Heading3</h3>
+				<p>Nulla in leo ex. Morbi id erat semper, tristique ligula et, consequat nunc. Sed 
+					eleifend, sapien in interdum volutpat, orci felis accumsan dolor, lobortis 
+					luctus turpis diam a quam. Pellentesque sit amet molestie justo. Aenean non 
+					sollicitudin massa, a aliquam quam. Nulla facilisi. Vivamus a ante sed quam 
+					pulvinar condimentum. In scelerisque dolor eget neque ornare finibus. Duis 
+					interdum libero erat, pellentesque rutrum erat consequat non. In mollis 
+					tellus sit amet elit accumsan maximus. Donec ut dapibus magna, eu tincidunt 
+					magna.
+					
+					Maecenas vehicula sodales orci, non elementum leo scelerisque eget. 
+					Vestibulum bibendum commodo felis, non ullamcorper ex efficitur vel. 
+					Curabitur viverra ultricies leo, quis rhoncus orci porttitor a. Duis eu urna in 
+					odio consectetur suscipit. In hac habitasse platea dictumst. Donec id laoreet 
+					nibh. Aliquam erat volutpat. Suspendisse mi urna, porttitor lobortis urna id, 
+					posuere vestibulum ipsum. In hac habitasse platea dictumst.
+					
+					Nulla sagittis ipsum non volutpat sagittis. Proin fermentum semper enim quis 
+					aliquet. In accumsan odio mi, quis commodo magna vulputate vel. Mauris 
+					quis orci sed diam commodo lacinia. Curabitur tristique a leo ac sollicitudin. 
+					Morbi pellentesque sodales neque. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus. Nam posuere arcu in ornare 
+					dignissim. Aliquam pretium massa vel mauris molestie pellentesque. Nullam 
+					quis lobortis turpis. Orci varius natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Proin mauris purus, auctor in tincidunt ut, 
+					posuere et mauris. Mauris consequat ante risus, id consequat ante lobortis 
+					eget.
+					
+					Phasellus vel sem libero. Suspendisse pharetra diam sodales ante placerat, at 
+					molestie lacus iaculis. Cras at purus mi. Cras tempor dui quis est dignissim 
+					scelerisque. Cras vulputate turpis venenatis ultrices ullamcorper. Sed sodales 
+					risus odio, sit amet maximus diam viverra vitae. Nulla ac justo varius, 
+					semper erat at, tristique est. Sed lacinia tortor ut libero vehicula fringilla. 
+					Maecenas feugiat sed nisi et tempus. Sed id sem velit. Morbi fringilla lacus ut 
+					eros tincidunt, nec dapibus eros porta. In hac habitasse platea dictumst. 
+					Suspendisse rutrum volutpat ex quis tincidunt. Ut congue felis id ultricies 
+					elementum. Quisque suscipit, sapien non lobortis placerat, urna justo 
+					euismod augue, quis condimentum diam purus ac metus.</p>
+			</div>
+			<div id="dis4" class="tabcontent">
+				<h4>Place-4</h4>
+				<h3>Best places to visit<br>Heading4</h3>
+				<p>Nulla in leo ex. Morbi id erat semper, tristique ligula et, consequat nunc. Sed 
+					eleifend, sapien in interdum volutpat, orci felis accumsan dolor, lobortis 
+					luctus turpis diam a quam. Pellentesque sit amet molestie justo. Aenean non 
+					sollicitudin massa, a aliquam quam. Nulla facilisi. Vivamus a ante sed quam 
+					pulvinar condimentum. In scelerisque dolor eget neque ornare finibus. Duis 
+					interdum libero erat, pellentesque rutrum erat consequat non. In mollis 
+					tellus sit amet elit accumsan maximus. Donec ut dapibus magna, eu tincidunt 
+					magna.
+					
+					Maecenas vehicula sodales orci, non elementum leo scelerisque eget. 
+					Vestibulum bibendum commodo felis, non ullamcorper ex efficitur vel. 
+					Curabitur viverra ultricies leo, quis rhoncus orci porttitor a. Duis eu urna in 
+					odio consectetur suscipit. In hac habitasse platea dictumst. Donec id laoreet 
+					nibh. Aliquam erat volutpat. Suspendisse mi urna, porttitor lobortis urna id, 
+					posuere vestibulum ipsum. In hac habitasse platea dictumst.
+					
+					Nulla sagittis ipsum non volutpat sagittis. Proin fermentum semper enim quis 
+					aliquet. In accumsan odio mi, quis commodo magna vulputate vel. Mauris 
+					quis orci sed diam commodo lacinia. Curabitur tristique a leo ac sollicitudin. 
+					Morbi pellentesque sodales neque. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus. Nam posuere arcu in ornare 
+					dignissim. Aliquam pretium massa vel mauris molestie pellentesque. Nullam 
+					quis lobortis turpis. Orci varius natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Proin mauris purus, auctor in tincidunt ut, 
+					posuere et mauris. Mauris consequat ante risus, id consequat ante lobortis 
+					eget.
+					
+					Phasellus vel sem libero. Suspendisse pharetra diam sodales ante placerat, at 
+					molestie lacus iaculis. Cras at purus mi. Cras tempor dui quis est dignissim 
+					scelerisque. Cras vulputate turpis venenatis ultrices ullamcorper. Sed sodales 
+					risus odio, sit amet maximus diam viverra vitae. Nulla ac justo varius, 
+					semper erat at, tristique est. Sed lacinia tortor ut libero vehicula fringilla. 
+					Maecenas feugiat sed nisi et tempus. Sed id sem velit. Morbi fringilla lacus ut 
+					eros tincidunt, nec dapibus eros porta. In hac habitasse platea dictumst. 
+					Suspendisse rutrum volutpat ex quis tincidunt. Ut congue felis id ultricies 
+					elementum. Quisque suscipit, sapien non lobortis placerat, urna justo 
+					euismod augue, quis condimentum diam purus ac metus.</p>
+			</div>
+			<div id="dis5" class="tabcontent">
+				<h4>Place-5</h4>
+				<h3>Best places to visit<br>Heading5</h3>
+				<p>Nulla in leo ex. Morbi id erat semper, tristique ligula et, consequat nunc. Sed 
+					eleifend, sapien in interdum volutpat, orci felis accumsan dolor, lobortis 
+					luctus turpis diam a quam. Pellentesque sit amet molestie justo. Aenean non 
+					sollicitudin massa, a aliquam quam. Nulla facilisi. Vivamus a ante sed quam 
+					pulvinar condimentum. In scelerisque dolor eget neque ornare finibus. Duis 
+					interdum libero erat, pellentesque rutrum erat consequat non. In mollis 
+					tellus sit amet elit accumsan maximus. Donec ut dapibus magna, eu tincidunt 
+					magna.
+					
+					Maecenas vehicula sodales orci, non elementum leo scelerisque eget. 
+					Vestibulum bibendum commodo felis, non ullamcorper ex efficitur vel. 
+					Curabitur viverra ultricies leo, quis rhoncus orci porttitor a. Duis eu urna in 
+					odio consectetur suscipit. In hac habitasse platea dictumst. Donec id laoreet 
+					nibh. Aliquam erat volutpat. Suspendisse mi urna, porttitor lobortis urna id, 
+					posuere vestibulum ipsum. In hac habitasse platea dictumst.
+					
+					Nulla sagittis ipsum non volutpat sagittis. Proin fermentum semper enim quis 
+					aliquet. In accumsan odio mi, quis commodo magna vulputate vel. Mauris 
+					quis orci sed diam commodo lacinia. Curabitur tristique a leo ac sollicitudin. 
+					Morbi pellentesque sodales neque. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus. Nam posuere arcu in ornare 
+					dignissim. Aliquam pretium massa vel mauris molestie pellentesque. Nullam 
+					quis lobortis turpis. Orci varius natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Proin mauris purus, auctor in tincidunt ut, 
+					posuere et mauris. Mauris consequat ante risus, id consequat ante lobortis 
+					eget.
+					
+					Phasellus vel sem libero. Suspendisse pharetra diam sodales ante placerat, at 
+					molestie lacus iaculis. Cras at purus mi. Cras tempor dui quis est dignissim 
+					scelerisque. Cras vulputate turpis venenatis ultrices ullamcorper. Sed sodales 
+					risus odio, sit amet maximus diam viverra vitae. Nulla ac justo varius, 
+					semper erat at, tristique est. Sed lacinia tortor ut libero vehicula fringilla. 
+					Maecenas feugiat sed nisi et tempus. Sed id sem velit. Morbi fringilla lacus ut 
+					eros tincidunt, nec dapibus eros porta. In hac habitasse platea dictumst. 
+					Suspendisse rutrum volutpat ex quis tincidunt. Ut congue felis id ultricies 
+					elementum. Quisque suscipit, sapien non lobortis placerat, urna justo 
+					euismod augue, quis condimentum diam purus ac metus.</p>
+			</div>
+			<div id="dis6" class="tabcontent">
+				<h4>Place-6</h4>
+				<h3>Best places to visit<br>Heading6</h3>
+				<p>Nulla in leo ex. Morbi id erat semper, tristique ligula et, consequat nunc. Sed 
+					eleifend, sapien in interdum volutpat, orci felis accumsan dolor, lobortis 
+					luctus turpis diam a quam. Pellentesque sit amet molestie justo. Aenean non 
+					sollicitudin massa, a aliquam quam. Nulla facilisi. Vivamus a ante sed quam 
+					pulvinar condimentum. In scelerisque dolor eget neque ornare finibus. Duis 
+					interdum libero erat, pellentesque rutrum erat consequat non. In mollis 
+					tellus sit amet elit accumsan maximus. Donec ut dapibus magna, eu tincidunt 
+					magna.
+					
+					Maecenas vehicula sodales orci, non elementum leo scelerisque eget. 
+					Vestibulum bibendum commodo felis, non ullamcorper ex efficitur vel. 
+					Curabitur viverra ultricies leo, quis rhoncus orci porttitor a. Duis eu urna in 
+					odio consectetur suscipit. In hac habitasse platea dictumst. Donec id laoreet 
+					nibh. Aliquam erat volutpat. Suspendisse mi urna, porttitor lobortis urna id, 
+					posuere vestibulum ipsum. In hac habitasse platea dictumst.
+					
+					Nulla sagittis ipsum non volutpat sagittis. Proin fermentum semper enim quis 
+					aliquet. In accumsan odio mi, quis commodo magna vulputate vel. Mauris 
+					quis orci sed diam commodo lacinia. Curabitur tristique a leo ac sollicitudin. 
+					Morbi pellentesque sodales neque. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus. Nam posuere arcu in ornare 
+					dignissim. Aliquam pretium massa vel mauris molestie pellentesque. Nullam 
+					quis lobortis turpis. Orci varius natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Proin mauris purus, auctor in tincidunt ut, 
+					posuere et mauris. Mauris consequat ante risus, id consequat ante lobortis 
+					eget.
+					
+					Phasellus vel sem libero. Suspendisse pharetra diam sodales ante placerat, at 
+					molestie lacus iaculis. Cras at purus mi. Cras tempor dui quis est dignissim 
+					scelerisque. Cras vulputate turpis venenatis ultrices ullamcorper. Sed sodales 
+					risus odio, sit amet maximus diam viverra vitae. Nulla ac justo varius, 
+					semper erat at, tristique est. Sed lacinia tortor ut libero vehicula fringilla. 
+					Maecenas feugiat sed nisi et tempus. Sed id sem velit. Morbi fringilla lacus ut 
+					eros tincidunt, nec dapibus eros porta. In hac habitasse platea dictumst. 
+					Suspendisse rutrum volutpat ex quis tincidunt. Ut congue felis id ultricies 
+					elementum. Quisque suscipit, sapien non lobortis placerat, urna justo 
+					euismod augue, quis condimentum diam purus ac metus.</p>
+			</div>
+			<div id="dis7" class="tabcontent">
+				<h4>Place-7</h4>
+				<h3>Best places to visit<br>Heading7</h3>
+				<p>Nulla in leo ex. Morbi id erat semper, tristique ligula et, consequat nunc. Sed 
+					eleifend, sapien in interdum volutpat, orci felis accumsan dolor, lobortis 
+					luctus turpis diam a quam. Pellentesque sit amet molestie justo. Aenean non 
+					sollicitudin massa, a aliquam quam. Nulla facilisi. Vivamus a ante sed quam 
+					pulvinar condimentum. In scelerisque dolor eget neque ornare finibus. Duis 
+					interdum libero erat, pellentesque rutrum erat consequat non. In mollis 
+					tellus sit amet elit accumsan maximus. Donec ut dapibus magna, eu tincidunt 
+					magna.
+					
+					Maecenas vehicula sodales orci, non elementum leo scelerisque eget. 
+					Vestibulum bibendum commodo felis, non ullamcorper ex efficitur vel. 
+					Curabitur viverra ultricies leo, quis rhoncus orci porttitor a. Duis eu urna in 
+					odio consectetur suscipit. In hac habitasse platea dictumst. Donec id laoreet 
+					nibh. Aliquam erat volutpat. Suspendisse mi urna, porttitor lobortis urna id, 
+					posuere vestibulum ipsum. In hac habitasse platea dictumst.
+					
+					Nulla sagittis ipsum non volutpat sagittis. Proin fermentum semper enim quis 
+					aliquet. In accumsan odio mi, quis commodo magna vulputate vel. Mauris 
+					quis orci sed diam commodo lacinia. Curabitur tristique a leo ac sollicitudin. 
+					Morbi pellentesque sodales neque. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus. Nam posuere arcu in ornare 
+					dignissim. Aliquam pretium massa vel mauris molestie pellentesque. Nullam 
+					quis lobortis turpis. Orci varius natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Proin mauris purus, auctor in tincidunt ut, 
+					posuere et mauris. Mauris consequat ante risus, id consequat ante lobortis 
+					eget.
+					
+					Phasellus vel sem libero. Suspendisse pharetra diam sodales ante placerat, at 
+					molestie lacus iaculis. Cras at purus mi. Cras tempor dui quis est dignissim 
+					scelerisque. Cras vulputate turpis venenatis ultrices ullamcorper. Sed sodales 
+					risus odio, sit amet maximus diam viverra vitae. Nulla ac justo varius, 
+					semper erat at, tristique est. Sed lacinia tortor ut libero vehicula fringilla. 
+					Maecenas feugiat sed nisi et tempus. Sed id sem velit. Morbi fringilla lacus ut 
+					eros tincidunt, nec dapibus eros porta. In hac habitasse platea dictumst. 
+					Suspendisse rutrum volutpat ex quis tincidunt. Ut congue felis id ultricies 
+					elementum. Quisque suscipit, sapien non lobortis placerat, urna justo 
+					euismod augue, quis condimentum diam purus ac metus.</p>
+			</div>
+			<div id="dis8" class="tabcontent">
+				<h4>Place-8</h4>
+				<h3>Best places to visit<br>Heading8</h3>
+				<p>Nulla in leo ex. Morbi id erat semper, tristique ligula et, consequat nunc. Sed 
+					eleifend, sapien in interdum volutpat, orci felis accumsan dolor, lobortis 
+					luctus turpis diam a quam. Pellentesque sit amet molestie justo. Aenean non 
+					sollicitudin massa, a aliquam quam. Nulla facilisi. Vivamus a ante sed quam 
+					pulvinar condimentum. In scelerisque dolor eget neque ornare finibus. Duis 
+					interdum libero erat, pellentesque rutrum erat consequat non. In mollis 
+					tellus sit amet elit accumsan maximus. Donec ut dapibus magna, eu tincidunt 
+					magna.
+					
+					Maecenas vehicula sodales orci, non elementum leo scelerisque eget. 
+					Vestibulum bibendum commodo felis, non ullamcorper ex efficitur vel. 
+					Curabitur viverra ultricies leo, quis rhoncus orci porttitor a. Duis eu urna in 
+					odio consectetur suscipit. In hac habitasse platea dictumst. Donec id laoreet 
+					nibh. Aliquam erat volutpat. Suspendisse mi urna, porttitor lobortis urna id, 
+					posuere vestibulum ipsum. In hac habitasse platea dictumst.
+					
+					Nulla sagittis ipsum non volutpat sagittis. Proin fermentum semper enim quis 
+					aliquet. In accumsan odio mi, quis commodo magna vulputate vel. Mauris 
+					quis orci sed diam commodo lacinia. Curabitur tristique a leo ac sollicitudin. 
+					Morbi pellentesque sodales neque. Orci varius natoque penatibus et magnis 
+					dis parturient montes, nascetur ridiculus mus. Nam posuere arcu in ornare 
+					dignissim. Aliquam pretium massa vel mauris molestie pellentesque. Nullam 
+					quis lobortis turpis. Orci varius natoque penatibus et magnis dis parturient 
+					montes, nascetur ridiculus mus. Proin mauris purus, auctor in tincidunt ut, 
+					posuere et mauris. Mauris consequat ante risus, id consequat ante lobortis 
+					eget.
+					
+					Phasellus vel sem libero. Suspendisse pharetra diam sodales ante placerat, at 
+					molestie lacus iaculis. Cras at purus mi. Cras tempor dui quis est dignissim 
+					scelerisque. Cras vulputate turpis venenatis ultrices ullamcorper. Sed sodales 
+					risus odio, sit amet maximus diam viverra vitae. Nulla ac justo varius, 
+					semper erat at, tristique est. Sed lacinia tortor ut libero vehicula fringilla. 
+					Maecenas feugiat sed nisi et tempus. Sed id sem velit. Morbi fringilla lacus ut 
+					eros tincidunt, nec dapibus eros porta. In hac habitasse platea dictumst. 
+					Suspendisse rutrum volutpat ex quis tincidunt. Ut congue felis id ultricies 
+					elementum. Quisque suscipit, sapien non lobortis placerat, urna justo 
+					euismod augue, quis condimentum diam purus ac metus.</p>
+			</div>
+		</div>
+		<div class="part2">
+			<div class="part2div tablinks" onclick="openCity(event, 'dis1')" id="defaultOpen">
+				<img src="img/img1.jpg">
+			</div>
+			<div class="part2div tablinks"  onclick="openCity(event, 'dis2')">
+				<img src="img/img2.jpg">
+			</div>
+			<div class="part2div tablinks"  onclick="openCity(event, 'dis3')">
+				<img src="img/img3.jpg">
+			</div>
+			<div class="part2div tablinks"  onclick="openCity(event, 'dis4')">
+				<img src="img/img4.jpg">
+			</div>
+			<div class="part2div tablinks"  onclick="openCity(event, 'dis5')">
+				<img src="img/img5.jpg">
+			</div>
+			<div class="part2div tablinks"  onclick="openCity(event, 'dis6')">
+				<img src="img/img6.jpg">
+			</div>
+			<div class="part2div tablinks"  onclick="openCity(event, 'dis7')">
+				<img src="img/img7.jpg">
+			</div>
+			<div class="part2div tablinks"  onclick="openCity(event, 'dis8')">
+				<img src="img/img8.jpg">
+			</div>
+		</div>
+	</section>
+	<div class="links-wraaper">
+		<div class="links">
+			<img src="img/facebook_dark.png">
+		</div>
+		<div class="links">
+			<img src="img/instagram-dark.png">
+		</div>
+		<div class="links">
+			<img src="img/linkedin-dark.png">
+		</div>
+		<div class="links">
+			<img src="img/twitter-dark.png">
+		</div>
+	</div>
+	<div class="add">
+		<div class="addimg">
+			<img src="img/profile.png">
+		</div>
+		<p>Blog owner name | yourmail@mail.com | your no.</p>
+	</div>
+
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

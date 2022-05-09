@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F2EAD0;
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgba(133,133,133,.4); /* Black*/
+  backdrop-filter: blur(2px);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  font-family: 'Trebuchet MS';
+  font-weight: bolder;
+  margin-left: 10%;
+  margin-top: 3%;
+  text-decoration: none;
+  font-size: 5vw;
+  color: #5A4C4C;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#warning-message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(25vw, 35vh);
+}
+#warning-message img{
+  animation: rotatephone 1s infinite;
+}
+@keyframes rotatephone{
+  0%{
+    transform: rotate(-45deg);
+  }
+}
+#warning-message p{
+  font-size: 28px;
+}
+/**************************************menu button*************************************/
+.spanbutton{
+  margin: 3vw;
+  cursor: pointer;
+  position: absolute;
+}
+.menubuttondiv1{
+  display: flex;
+}
+.menudiv1{
+  width: 12px;
+  height: 5px;
+  background-color: #5A4C4C;
+  margin: 3px;
+  border-radius: 2.5px;
+}
+.menudiv2{
+  width: 33px;
+  height: 5px;
+  background-color: #5A4C4C;
+  margin: 3px;
+  border-radius: 2.5px;
+}
+.menubuttondiv2{
+  display: flex;
+}
+.menudiv3{
+  width: 30px;
+  height: 5px;
+  background-color: #5A4C4C;
+  margin: 3px;
+  border-radius: 2.5px;
+}
+.menudiv4{
+  width: 15px;
+  height: 5px;
+  background-color: #5A4C4C;
+  margin: 3px;
+  border-radius: 2.5px;
+}
+.menubuttondiv3{
+  display: flex;
+}
+.menudiv5{
+  width: 17px;
+  height: 5px;
+  background-color: #5A4C4C;
+  margin: 3px;
+  border-radius: 2.5px;
+}
+.menudiv6{
+  width: 28px;
+  height: 5px;
+  background-color: #5A4C4C;
+  margin: 3px;
+  border-radius: 2.5px;
+}
+.spanbutton:hover .menudiv2, .spanbutton:hover .menudiv4, .spanbutton:hover .menudiv6{
+  width: 0;
+  transition: .5s ease-in-out;
+}
+.spanbutton:hover .menudiv1,.spanbutton:hover .menudiv3,.spanbutton:hover .menudiv5{
+  width: 48px;
+  transition: .5s ease-in-out;
+}
+/**********************************section1*******************************/
+.section1{
+  display: flex;
+}
+.part1{
+  width: 65vw;
+  height: 100vh;
+}
+.part2{
+  width: 35vw;
+  height: 100vh;
+  overflow: auto;
+}
+.part2div{
+  width: 90%;
+  padding: 2%;
+  border: 2px solid #5A4C4C;
+}
+.part2div img{
+  width: 100%;
+}
+
+/*********************************part1************************/
+.logo{
+  float: right;
+  width: 20vw;
+  margin-right: 13%;
+  margin-top: 3%;
+}
+.logo img{
+  width: 100%;
+}
+.tabcontent{
+  margin-top: 15%;
+  padding-left: 20%;
+  width: 75%;
+  padding-right: 2%;
+  height: 65%;
+  overflow: auto;
+}
+.tabcontent::-webkit-scrollbar{
+  width: 1px;
+}
+.tabcontent::-webkit-scrollbar-thumb{
+  background: #5A4C4C;
+}
+.tabcontent h3{
+  font-family: 'Trebuchet MS';
+  color: #5A4C4C;
+  font-size: 3vw;
+  animation: slideeffect 1s;
+}
+@keyframes slideeffect{
+  0%{
+    opacity: 0;
+    padding-left: 100px;
+  }
+}
+.tabcontent h2{
+  font-family: 'Trebuchet MS';
+  color: #5A4C4C;
+  font-size: 2.3vw;
+  animation: slideeffect1 1s;
+}
+@keyframes slideeffect1{
+  0%{
+    opacity: 0;
+    padding-left: 100px;
+  }
+}
+.tabcontent p{
+  font-family: 'Trebuchet MS';
+  color: #5A4C4C;
+  font-size: 1.3vw;
+  animation: slideeffect2 1s;
+}
+@keyframes slideeffect2{
+  0%{
+    opacity: 0;
+    padding-top: 200px;
+  }
+}
+.tabcontent h4{
+  font-family: 'Trebuchet MS';
+  color: #5A4C4C;
+  opacity: .2;
+  font-size: 13vw;
+  position: fixed;
+  top: 8%;
+  left: 20%;
+  animation: slideeffect3 1s;
+  z-index: -2;
+}
+@keyframes slideeffect3{
+  0%{
+    opacity: 0;
+    padding-left: 200px;
+  }
+}
+/************************links-wraaper***********************/
+.links-wraaper{
+  position: absolute;
+  left: 3%;
+  bottom: 15%;
+}
+.links{
+  width: 3vw;
+  height: 3vw;
+  margin-bottom: 1vw;
+  background-color: #E2DBC5;
+  border: 2px solid #5a4c4c;
+  border-radius: 50%;
+}
+.links img{
+  width: 100%;
+  border-radius: 50%;
+}
+.links:hover{
+  background-color: #5A4C4C;
+  transition: .5s ease;
+}
+.links img:hover{
+  filter: brightness(10);
+  cursor: pointer;
+  transition: .5s ease;
+}
+/************************add****************************/
+.add{
+  display: flex;
+  margin-top: -6%;
+}
+.addimg{
+  width: 3.2vw;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.addimg img{
+  width: 100%;
+  background-color: #E2DBC5;
+  border: 2px solid #707070;
+  border-radius: 50%;
+}
+.add p{
+  font-family: 'Trebuchet MS';
+  font-size: 1.8vw;
+  font-weight: bolder;
+  color: #5A4C4C;
+  margin-left: 2%;
+}
+/******************************queryform**********************/
+.queryform{
+  margin-left: 25%;
+  margin-top: 15%;
+}
+.queryform input{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5vw;
+  color: #5A4C4C;
+  padding: 1vw;
+  width: 40vw;
+  margin-bottom: 1vw;
+  border-bottom: 2px solid #5A4C4C;
+  animation: slideeffect4 1s;
+}
+@keyframes slideeffect4{
+  0%{
+    opacity: 0;
+    padding-left: 200px;
+  }
+}
+.queryform textarea{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5vw;
+  color: #5A4C4C;
+  padding: 1vw;
+  min-width: 40vw;
+  max-width: 40vw;
+  min-height: 5vw;
+  max-height: 7vw;
+  border-bottom: 2px solid #5A4C4C;
+  animation: slideeffect5 1s;
+}
+@keyframes slideeffect5{
+  0%{
+    opacity: 0;
+    padding-left: 200px;
+  }
+}
+.queryform button{
+  border: none;
+  outline: none;
+  font-size: 2vw;
+  padding: .5vw 1vw;
+  color: white;
+  background-color: #5A4C4C;
+  border-radius: 4px;
+  position: fixed;
+  left: 51.5%;
+  bottom: 22%;
+  animation: slideeffect6 1s;
+}
+@keyframes slideeffect6{
+  0%{
+    opacity: 0;
+    padding-top: 50px;
+  }
+}
+.queryform button:hover{
+  color: #5A4C4C;
+  background-color: #E2DBC5;
+  transition: .5s ease;
+}
+.address h3{  
+  font-family: 'Trebuchet MS';
+  font-size: 1.8vw;
+  font-weight: bolder;
+  color: #5A4C4C;
+  margin-bottom: 0;
+  animation: slideeffect7 1s;
+}
+@keyframes slideeffect7{
+  0%{
+    opacity: 0;
+    padding-top: 200px;
+  }
+}
+.address p{  
+  font-family: 'Trebuchet MS';
+  font-size: 1.5vw;
+  color: #5A4C4C;
+  margin-top: 0;
+}
